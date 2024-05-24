@@ -1,0 +1,118 @@
+name: Λrgħyä Legal
+title: Λrgħyä Legal is a boutique law firm.
+description: Λrgħyä Legal is a boutique law firm offering commercial transaction, contract management, regulatory compliance training and dispute resolution services.
+basepath: https://www.arghyalegal.com
+ogImageURL: https://arghyalegal.com/public/images/logo.png
+keywords:
+  - Legal
+  - Law
+  - Firm
+author:
+  name: Ankur Deka
+  email: ankur@gmail.com
+  url: https://www.arghyalegal.com
+heroslider:
+  - image: /images/joining-hands.jpg
+    title: Welcome to
+    subtitle: Λrgħyä Legal
+    btnText: Contact Us
+    link: /contact
+links:
+  - text: Home
+    link: /
+  - text: Why Us
+    link: /whyus
+  - text: Our Team
+    link: /team
+  - text: Practice Areas
+    link: /practice-areas
+  - text: Contact
+    link: /contact
+socials: 
+  - name: YouTube
+    icon: youtube
+    link: https://www.youtube.com/@manobal
+  - name: Facebook
+    icon: facebook
+    link: https://www.facebook.com/@manobal
+  - name: Instagram
+    icon: instagram
+    link: https://www.instagram.com/@manobal
+whyustitle: Why us?
+whyusitems:
+  - id: 1
+    title: Competitive Pricing
+    text: It is our constant endeavour to work with our clients and provide them with the most cost competitive price structure which suits their budget since we understand that each of them operates within a tight budget. This is without ever compromising on our quality of services. Our services are competitively priced as it is our desire to be accessible to businesses of all sizes. We want to partner with our clients to assist them to the right utilisation of resources, increase revenue and improve performance in the long run."
+  - id: 2
+    title: Availability and Accessibility
+    text: We understand the anxiety of our clients when an issue arises and they require immediate assistance. To ensure seamless interaction and support at all times, a dedicated single point of contact will be assigned to directly liaison with clients. We always strive to maintain our availability for our clients at all times.
+  - id: 3
+    title: Quality Work
+    text: One of the main tenets for which Λrgħyä legal was set up was to bring value to our clients by offering quality services at affordable rates. We undertake to ensure detail, accuracy, thoroughness, completeness in whatever we provide as services. Our services solve our client’s problems, meet their needs and create an overall positive impact on its business.
+  - id: 4
+    title: Partnership
+    text: We focus on building long-term relationships. Understanding our client’s business and expectations is very essential before we start a relationship and provide any kind of services since it has to be catered to their specific business needs and expectations. This is the first step to fostering lasting partnerships which is more than just the regular lawyer - client commercial relationship.  We not only give the solution but also work alongside our clients to ensure actual implementation, either by working together and or by taking lead on their behalf and working with various internal business teams for implementation.
+  - id: 5
+    title: Practicality
+    text: For our solutions to be acceptable from a business perspective, we focus on looking at law from a practical perspective. Our inhouse experience coupled with an entrepreneurial mindset enables us to put business first while working on client issues.   We focus on bringing synergy between law, practicality and business to come up with innovative solutions which suit the needs of our clients. We provide solutions which are simple and easy to implement but also acceptable under law.
+  - id: 6
+    title: Personalised Advice
+    text: We understand that one size does not fit all. Hence, our solutions are tailor made to suit client specific needs.  Our vast experience in our areas of expertise helps us to come up with multiple solutions to pick from. That is also one of the reasons that every client is connected to a single point of contact who spends time to get to know a client, its business and then personalizes the services to suit their specific needs. This includes predicting a client’s requirements well in advance and providing them with the necessary information/services/documents to deal with such requirements well ahead of time.
+  - id: 7
+    title: Responsiveness
+    text: We value our client’s business and understand the importance of quick turnaround times and its impact on business. We work with our clients to adhere to agreeable timelines for best results without compromising on the quality of our services.
+valuesTitle: Our core values
+valuesItems: 
+  - title: Availability
+    text: A dedicated single point of contact directly liaisons with clients and is available anytime.
+    image: /images/values/availability.jpg
+    id: 1
+  - title: Affordability
+    text: Our services are competitively priced as it is our desire to be accessible to businesses of all sizes.
+    image: /images/values/affordability.jpg
+    id: 2
+  - title: Quality
+    text: We ensure detail, accuracy, thoroughness, completeness in whatever we provide as services.
+    image: /images/values/quality.jpg
+    id: 3
+  - title: Integrity
+    text: We believe in maintaining the highest ethical standards in all our business dealings.
+    image: /images/values/integrity.jpg
+    id: 4
+faq:
+  - question: How much do the classes cost?
+    answer:  Admission Rs. 1,000/- Monthly Fees Rs. 3,000/- for regular classes and for Crash Course Rs.18,000/-. Late fee will be charged 200/- extra.
+  - question: How many classes per month?
+    answer:  Weekly 2 classes and Monthly 8 Classes. If the student is absent, then maximum 2 grace classes will be given. If the teacher misses the class, then it will be compensated wholly.
+  - question: Do I need to carry my own instruments?
+    answer:  Yes. Carry your own Guitar, Plectrum & Drumsticks. You can also hire instruments from SMI. Instrument Sales & Services are also undertaken.
+  - question: I have a friend who wants to learn, will I get a discount?
+    answer:  Yes. References are appreciated and will be given a discount of 500/- each for the first month fee only.
+copyright: © 2023 Λrgħyä Legal All rights reserved
+contact: 
+  - id: 1
+    contactName: Arghya Legal
+    icon: heroicons:map-pin
+    title: Address on google maps
+    arialabel: phone number +91 98862 58971
+    href: https://goo.gl/maps/S6rsAL4c4xZzwWb96
+    text: 
+      - C-901, Sattva East Crest Sy. No. 41,
+      - Old Madras Road, Near Budigere Cross, 
+      - Bangalore 560 049.
+  - id: 2
+    contactName: Arghya Legal
+    icon: bytesize:telephone
+    title: Phone number +91 98862 58971
+    arialabel: Phone number +91 98862 58971
+    href: tel:00919886258971
+    text: 
+      - +91 98862 58971
+  - id: 3
+    contactName: Arghya Legal
+    icon: heroicons:envelope
+    title: Email enquiry@arghyalegal.com
+    arialabel: Email enquiry@arghyalegal.com
+    href: mailto:enquiry@arghyalegal.com
+    text: 
+      - enquiry@arghyalegal.com
