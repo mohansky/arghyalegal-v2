@@ -29,16 +29,6 @@ links:
     link: /practice-areas
   - text: Contact
     link: /contact
-socials: 
-  - name: YouTube
-    icon: youtube
-    link: https://www.youtube.com/@manobal
-  - name: Facebook
-    icon: facebook
-    link: https://www.facebook.com/@manobal
-  - name: Instagram
-    icon: instagram
-    link: https://www.instagram.com/@manobal
 whyustitle: Why us?
 whyusitems:
   - id: 1
