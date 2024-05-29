@@ -92,7 +92,7 @@ export default async function practiceAreasPage({
       <Container width="marginxy">
         <div className="grid lg:grid-cols-3 gap-28">
           <div className="col-span-2">
-            <Heading size="md" className="mb-10">
+            <Heading size="md" className="mb-10 uppercase">
               {practiceArea.title}
             </Heading>
             <MDXContent code={practiceArea.body} />
