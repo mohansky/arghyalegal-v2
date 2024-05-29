@@ -39,7 +39,7 @@ export default function PracticesAreasItem({
         <div className="absolute top-0 left-0 w-full h-full bg-muted/20 backdrop-blur-sm" />
         <div className="absolute top-1">
           <CardHeader>
-            <CardTitle>{title}</CardTitle>
+            <CardTitle className="uppercase">{title}</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="line-clamp-3">{subtitle}</p>

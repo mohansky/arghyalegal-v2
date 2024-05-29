@@ -38,7 +38,7 @@ export default function WorkSlide({
         />
         <div className="bg-muted w-full h-full p-10">
           <div className="lg:w-5/6">
-            <Heading size="md" className="font-semibold mb-5">
+            <Heading size="md" className="font-semibold mb-5 uppercase">
               {title}
             </Heading>
             <Paragraph className="mb-5 line-clamp-3">{subtitle}</Paragraph>

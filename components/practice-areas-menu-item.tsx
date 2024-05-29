@@ -15,7 +15,7 @@ export default function PracticesAreasMenuItem({
 }: PracticesProps) {
   return (
     <>
-      <li className="flex items-center font-medium">
+      <li className="flex items-center font-medium uppercase">
         <Button variant="link">
           <Icon
             icon="icon-park-twotone:right-c"
