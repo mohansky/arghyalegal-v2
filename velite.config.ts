@@ -16,10 +16,11 @@ const practiceAreas = defineCollection({
       slug: s.path(),
       published: s.boolean().default(true),
       id: s.number(),
-      title: s.string().optional(),
-      subtitle: s.string().optional(),
-      img: s.string().optional(),
+      title: s.string().max(99),
+      subtitle: s.string().max(999),
+      img: s.string(),
       imageBlurUrl: s.string().optional(),
+      heroClassName: s.string().optional(),
       url: s.string().optional(),
       body: s.mdx(),
     })
@@ -75,9 +76,10 @@ const options = defineCollection({
     }),
     heroslider: s.array(
       s.object({
-        title: s.string(),
-        subtitle: s.string().optional(),
-        image: s.string().optional(),
+        title: s.string().max(99),
+        subtitle: s.string().max(999),
+        image: s.string(),
+        blurDataURL: s.string(),
         btnText: s.string(),
         link: s.string(),
       })
