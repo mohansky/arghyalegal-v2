@@ -85,14 +85,6 @@ const options = defineCollection({
       })
     ),
     links: s.array(s.object({ text: s.string(), link: s.string() })),
-    socials: s.array(
-      s.object({
-        name: s.string(),
-        icon: s.string().optional(),
-        link: s.string().optional(),
-        image: s.image().optional(),
-      })
-    ),
     whyustitle: s.string().optional(),
     whyusitems: s.array(
       s.object({
