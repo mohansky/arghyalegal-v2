@@ -101,7 +101,6 @@ const options = defineCollection({
         text: s.string().max(999), 
       })
     ),
-    faq: s.array(s.object({ question: s.string(), answer: s.string() })),
     copyright: s.string(),
     contact: s.array(
       s.object({
