@@ -8,6 +8,7 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import { Heading } from "./styled-comps/heading";
+import { Paragraph } from "./styled-comps/paragraph";
 
 export default function WhyusHome() {
   return (
@@ -30,7 +31,7 @@ export default function WhyusHome() {
             </Heading>
           </CardHeader>
           <CardContent>
-            <p className="mb-5">{options.whyussubtitle} </p>
+            <Paragraph className="mb-5">{options.whyussubtitle} </Paragraph>
             <ul className="space-y-4">
               {options.whyusitems.map((whyus) => (
                 <li key={whyus.id} className="flex items-center font-medium">
