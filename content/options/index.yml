@@ -29,7 +29,9 @@ links:
     link: /practice-areas
   - text: Contact
     link: /contact
-whyustitle: Why us?
+whyustitle: Why us
+whyussubtitle: At Arghya Legal, we are committed to upholding our core values in order to foster a strong and long term business partnerships with our clients. We pride ourselves as a Firm striving to bring in productivity and growth for an organisation based on our understanding of the practical issues faced by it. 
+whyusimage: /images/why-us-home.jpg
 whyusitems:
   - id: 1
     title: Competitive Pricing
