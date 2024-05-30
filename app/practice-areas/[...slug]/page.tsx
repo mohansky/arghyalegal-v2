@@ -90,7 +90,7 @@ export default async function practiceAreasPage({
         className={practiceArea.heroClassName || ""}
       />
       <Container width="marginxy">
-        <div className="grid lg:grid-cols-3 gap-28">
+         <div className="grid lg:grid-cols-3 gap-4 lg:gap-28">
           <div className="col-span-2">
             <Heading size="md" className="mb-10 uppercase">
               {practiceArea.title}
