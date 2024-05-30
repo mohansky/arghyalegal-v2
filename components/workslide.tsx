@@ -37,7 +37,7 @@ export default function WorkSlide({
           blurDataURL={imageBlurUrl}
         />
         <div className="bg-muted w-full h-full p-10">
-          <div className="lg:w-5/6">
+          <div >
             <Heading size="md" className="font-semibold mb-5 uppercase">
               {title}
             </Heading>
