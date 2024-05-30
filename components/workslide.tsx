@@ -25,8 +25,8 @@ export default function WorkSlide({
   body,
 }: PracticesProps) {
   return (
-    <Card className="grid md:grid-cols-2">
-      {/* <div > */}
+    <>
+      <Card className="grid md:grid-cols-2">
         <Image
           src={img}
           alt={title}
@@ -37,7 +37,7 @@ export default function WorkSlide({
           blurDataURL={imageBlurUrl}
         />
         <div className="bg-muted w-full h-full p-10">
-          <div >
+          <div>
             <Heading size="md" className="font-semibold mb-5 uppercase">
               {title}
             </Heading>
@@ -47,7 +47,7 @@ export default function WorkSlide({
             </Link>
           </div>
         </div>
-      {/* </div> */}
-    </Card>
+      </Card>
+    </>
   );
 }
