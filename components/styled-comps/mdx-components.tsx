@@ -3,6 +3,7 @@ import * as runtime from "react/jsx-runtime";
 import { Paragraph } from "./paragraph";
 import { ListUnordered } from "./list-unordered";
 import { ListOrdered } from "./list-ordered";
+import { Heading4 } from "./heading4";
 
 const useMDXComponent = (code: string) => {
   const fn = new Function(code);
@@ -12,6 +13,7 @@ const useMDXComponent = (code: string) => {
 const sharedComponents = {
   Image,
   p: Paragraph,
+  h4: Heading4,
   ul: ListUnordered,
   ol: ListOrdered,
 };
