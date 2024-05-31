@@ -38,10 +38,13 @@ export default function Home() {
         <ValuesList />
       </Container>
       <Container width="marginxy">
-        <Slider />
+        <WhyusHome />
       </Container>
       <Container width="marginxy">
-        <WhyusHome />
+      <Heading size="md" className="font-semibold mb-5">
+        Practice areas
+      </Heading>
+        <Slider />
       </Container>
       <Container width="marginxy">
         <div className="grid lg:grid-cols-2 gap-8">
