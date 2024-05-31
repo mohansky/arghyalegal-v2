@@ -11,7 +11,7 @@ export function Heading4({
   return (
     <h4
       className={clsx(
-        "tracking-wider font-semibold font-sans text-xl md:text-2xl",
+        "tracking-wider font-semibold font-sans text-xl md:text-2xl mt-8",
         className
       )}
       {...restProps}
