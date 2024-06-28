@@ -14,7 +14,7 @@ export default function FooterLogo() {
           height="100"
           title="Argya Legal"
         />  
-        <p className="text-center text-al-primary text-xl">
+        <p className="text-center text-primary text-xl">
            {/* Λrgħyä Legal */}
         {/* <span> */}
         <span className="text-gray-900">Λrg</span><span className="text-red-800">ħyä</span> 
