@@ -37,9 +37,9 @@ export default function Menu() {
       >
         <div className="sm:max-w-xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl px-2 md:px-0 mx-auto">
           <div className="flex justify-between items-center">
-            <Link href="/" className="flex" title="Argya Legal">
+            <Link href="/" className="flex " title="Argya Legal">
               <Image
-                src="/images/logos/al-logo.svg"
+                src="/images/logos/al-logo-v2.svg"
                 alt="Argya Legal Logo"
                 className="block lg:hidden"
                 width="50"
@@ -47,14 +47,14 @@ export default function Menu() {
                 title="Argya Legal"
               />
               <Image
-                src="/images/logos/al-logo.svg"
+                src="/images/logos/al-logo-v2.svg"
                 alt="Argya Legal Logo"
-                className="hidden lg:block "
-                width="75"
-                height="75"
+                className="hidden lg:block mx-auto"
+                width="100"
+                height="100"
                 title="Argya Legal"
               />
-              <p className="text-primary font-bold text-lg pl-3 self-end">
+              <p className="text-gray-950 font-semibold text-lg pl-3 self-end my-auto">
                 Partnering for success
               </p>
             </Link>
