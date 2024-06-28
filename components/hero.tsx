@@ -38,13 +38,17 @@ export default function Hero({
           priority
         />
         <motion.div
-          className="absolute top-[55%] left-[5%] z-20"
+          className="absolute top-[50%] left-[5%] z-20"
           initial={{ opacity: 0, y: 250 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2 }}
         >
           <h1 className="text-white text-5xl md:text-6xl mb-5 ">
-            {title} <span className="font-semibold">{subtitle}</span>
+            {title} <span className="font-semibold">
+            <span className="text-gray-900">Λrg</span><span className="text-red-800">ħyä</span> 
+            {" "} Legal
+            {/* {subtitle} */}  
+            </span>
           </h1>
           <Link href={link} title={btnText}>
             <Button size="lg" className="uppercase font-semibold">
