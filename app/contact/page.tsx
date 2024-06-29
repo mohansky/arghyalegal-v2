@@ -20,7 +20,7 @@ export default function Contact() {
           <ul className="mb-20">
             <Heading size="md" className="text-primary font-semibold mb-5">
               {/* {options.name} */}
-              <span className="text-gray-900">Λrg</span><span className="text-red-800">ħyä</span> {" "}
+              <span className="text-gray-900 dark:text-gray-200">Λrg</span><span className="text-red-800">ħyä</span> {" "}
               Legal
             </Heading>
             {options.contact?.map((item) => {
