@@ -54,7 +54,7 @@ export default function Menu() {
                 height="75"
                 title="Argya Legal"
               />
-              <p className="text-gray-950 text-lg pl-3 self-end">
+              <p className="text-gray-950 text-lg pl-2 pb-2 self-end">
                 Partnering for success
               </p>
             </Link>
@@ -68,6 +68,7 @@ export default function Menu() {
     </>
   );
 }
+
 
 
 
