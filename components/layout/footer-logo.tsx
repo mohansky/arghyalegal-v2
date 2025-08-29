@@ -8,7 +8,7 @@ export default function FooterLogo() {
       <Links href="/" title="back to homepage" className="mb-5">
       <Image
           className="mx-auto mb-3"
-            src="/images/logos/al-logo.png"
+            src="/images/logos/al-logo-280825.svg"
           alt="Argya Legal"
           width="100"
           height="100"
@@ -26,3 +26,4 @@ export default function FooterLogo() {
     </>
   );
 }
+
