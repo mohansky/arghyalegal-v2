@@ -50,8 +50,8 @@ export default function Menu() {
                 src="/images/logos/al-logo-280825.svg"
                 alt="Argya Legal Logo"
                 className="hidden lg:block mx-auto"
-                width="100"
-                height="100"
+                width="75"
+                height="75"
                 title="Argya Legal"
               />
               <p className="text-gray-950 text-lg pl-3 self-end my-auto">
@@ -68,4 +68,5 @@ export default function Menu() {
     </>
   );
 }
+
 
